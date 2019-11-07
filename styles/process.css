@@ -1,0 +1,162 @@
+.process {
+  margin: 0;
+  background-color: #fcfcfd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15% 15% 0; }
+
+.process__text-box {
+  max-width: 362px;
+  margin-bottom: 291px; }
+  .process__text-box__heading {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 140%;
+    margin-bottom: 64px;
+    margin-top: 21px; }
+  .process__text-box__text {
+    font-size: 16px;
+    line-height: 150%; }
+
+.process__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 150px;
+  width: 538px;
+  position: relative; }
+
+.card-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 240px;
+  height: 640px;
+  position: absolute;
+  z-index: 1; }
+  .card-box--left {
+    top: 176px; }
+  .card-box--right {
+    top: 65px;
+    left: 298px; }
+
+.process__card {
+  padding: 48px 32px;
+  background-color: white;
+  -webkit-box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.02);
+          box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.02); }
+  .process__card__text {
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center; }
+
+.card__circle {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #f1fbfe;
+  margin: 0 auto 32px; }
+  .card__circle--yellow {
+    background-color: #fffae9; }
+  .card__circle--green {
+    background-color: #eafbef; }
+  .card__circle--red {
+    background-color: #fef1f1; }
+  .card__circle__number {
+    position: absolute;
+    display: block;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 150%;
+    color: #56ccf2;
+    top: 16px;
+    left: 12px; }
+    .card__circle__number--yellow {
+      color: #fcc50f; }
+    .card__circle__number--green {
+      color: #0bd647; }
+    .card__circle__number--red {
+      color: #f35f5f; }
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .process__items {
+    margin-left: 125px; }
+  .process__card {
+    padding: 48px 24px; }
+  .card-box {
+    width: 200px; }
+    .card-box--right {
+      top: 65px;
+      left: 240px; } }
+
+@media screen and (max-width: 999px) {
+  .process {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 50px 10px 0;
+    margin: 0 auto; }
+  .process__text-box {
+    margin: 0 auto 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center; }
+  .process__items {
+    max-width: 480px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto; }
+  .card-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 200px; }
+    .card-box--right {
+      top: 65px;
+      left: 240px; } }
+
+@media screen and (max-width: 500px) {
+  .process__text-box {
+    margin-bottom: 100px; }
+  .card-box {
+    margin-top: -74px;
+    width: 200px; }
+  .process__card {
+    width: 150px; }
+  .card-box--right {
+    top: 100px;
+    left: 180px; } }
+
+/*# sourceMappingURL=process.css.map */

@@ -1,0 +1,94 @@
+.picture {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(37, 55, 87, 0.1)), to(rgba(37, 55, 87, 0.1))), url(../images/slider/slide-img-1.jpg);
+  background: linear-gradient(0deg, rgba(37, 55, 87, 0.1), rgba(37, 55, 87, 0.1)), url(../images/slider/slide-img-1.jpg);
+  background-blend-mode: multiply, normal;
+  background-size: cover;
+  width: 70%;
+  height: 640px;
+  position: absolute;
+  top: 528px;
+  left: 15%;
+  z-index: 1; }
+  .picture__text-box {
+    position: absolute;
+    top: 500px;
+    left: 98px;
+    width: 264px; }
+    .picture__text-box__heading {
+      color: #56ccf2;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      margin-bottom: 4px;
+      text-transform: uppercase; }
+    .picture__text-box__text {
+      font-size: 20px;
+      font-weight: 900; }
+
+.slider {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 160px;
+  height: 65px;
+  background-color: #fcc304;
+  top: calc(320px - 32.5px);
+  left: calc(-80px);
+  border-radius: calc(32.5px); }
+  .slider__arrow {
+    width: 50%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #fcc304;
+    position: absolute;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s; }
+    .slider__arrow:hover {
+      background-color: #ca9d02;
+      cursor: pointer; }
+    .slider__arrow--left {
+      left: 0;
+      top: 0;
+      border-top-left-radius: calc(32.5px);
+      border-bottom-left-radius: calc(32.5px); }
+    .slider__arrow--right {
+      top: 0;
+      right: 0;
+      border-top-right-radius: calc(32.5px);
+      border-bottom-right-radius: calc(32.5px); }
+
+.networks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  width: 410px;
+  top: 320px;
+  right: -280px;
+  color: #253757;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 800; }
+  .networks__link {
+    display: inline-block;
+    text-decoration: none;
+    color: #253757;
+    font-weight: bold; }
+
+@media screen and (max-width: 999px) {
+  .networks {
+    right: -240px; } }
+
+/*# sourceMappingURL=slider.css.map */

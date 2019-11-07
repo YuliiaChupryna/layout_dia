@@ -1,0 +1,30 @@
+.sub-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 21px; }
+  .sub-title__icon {
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 21px;
+    margin-right: 16px; }
+    .sub-title__icon--dark {
+      background-image: url(../images/sub-title/sub-title-icon-dark.svg); }
+    .sub-title__icon--light {
+      background-image: url(../images/sub-title/sub-title-icon-light.svg); }
+  .sub-title__name {
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #56ccf2; }
+    .sub-title__name--light {
+      color: white; }
+
+/*# sourceMappingURL=sub-title.css.map */

@@ -1,0 +1,131 @@
+.testimonials {
+  position: relative;
+  padding: 198px 15% 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(75%, #fff), color-stop(75%, #fcfcfd), to(#fcfcfd));
+  background: linear-gradient(180deg, #fff 0%, #fff 75%, #fcfcfd 75%, #fcfcfd 100%); }
+  .testimonials__article {
+    width: 364px; }
+
+.person-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+  .person-box__item {
+    -ms-flex-preferred-size: 314px;
+        flex-basis: 314px;
+    margin: 0   40px; }
+
+.person {
+  position: relative;
+  padding: 240px 32px 58px;
+  text-align: center;
+  background-color: #fefefe;
+  -webkit-box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.05);
+          box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.05);
+  z-index: 1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+  .person__bg {
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    border-radius: 32px;
+    -webkit-transform: rotate(-65deg);
+            transform: rotate(-65deg);
+    left: calc(50% - 80px);
+    top: 93px; }
+  .person__photo {
+    position: absolute;
+    width: 64px;
+    height: 124px;
+    border-radius: 32px;
+    left: calc(50% - 32px);
+    top: 102px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-transform: rotate(-25deg);
+            transform: rotate(-25deg); }
+  .person__img {
+    height: 100%;
+    -webkit-transform: rotate(25deg) scaleX(-1);
+            transform: rotate(25deg) scaleX(-1); }
+  .person--first .person__img {
+    -webkit-transform: rotate(25deg) scale(1.4) scaleX(-1);
+            transform: rotate(25deg) scale(1.4) scaleX(-1); }
+  .person__quote {
+    font-style: italic;
+    font-size: 14px;
+    margin: 0; }
+  .person__info {
+    font-size: 13px; }
+    .person__info::before {
+      content: "";
+      display: block;
+      margin: 31px auto;
+      width: 64px;
+      height: 2px; }
+  .person__name {
+    font-weight: bold;
+    margin: 0; }
+  .person__function {
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+    color: #56ccf2; }
+  .person--first .person__bg,
+  .person--first .person__info::before {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #56ccf2;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #56ccf2; }
+  .person--second .person__bg,
+  .person--second .person__info::before {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #fcc304;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #fcc304; }
+  .person--third .person__bg,
+  .person--third .person__info::before {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #f25656;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #f25656; }
+  .person--first .person__function {
+    color: #56ccf2; }
+  .person--second .person__function {
+    color: #fcc304; }
+  .person--third .person__function {
+    color: #f25656; }
+
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+  .testimonials {
+    top: -10%; }
+  .person-box {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .person-box__item {
+      margin: 0 20px; }
+      .person-box__item:last-child {
+        margin-top: 20px; } }
+
+@media screen and (max-width: 999px) {
+  .testimonials {
+    top: 900px;
+    padding: 198px 0 100px; }
+    .testimonials__article {
+      margin: auto; }
+  .person-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; } }
+
+/*# sourceMappingURL=testimonials.css.map */

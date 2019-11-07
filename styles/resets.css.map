@@ -1,0 +1,1 @@
+{"version":3,"sources":["resets.scss"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;EACV,+BAA+B;EAC/B,eAAe,EAAA;;AAGjB;EACE,qBAAqB,EAAA","file":"resets.css","sourcesContent":["* {\n  margin: 0;\n  padding: 0;\n  font-family: \"Muli\", sans-serif;\n  font-size: 16px;\n}\n\na {\n  text-decoration: none;\n}\n"]}
