@@ -126,13 +126,6 @@ a {
     .nav__link--active {
       line-height: 20px; } }
 
-@media screen and (max-width: 566px) {
-  .header__text-box__text {
-    margin-bottom: 10px; }
-  .button {
-    width: 226px;
-    height: 30px; } }
-
 .picture {
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(37, 55, 87, 0.1)), to(rgba(37, 55, 87, 0.1))), url(../images/slider/slide-img-1.jpg);
   background: linear-gradient(0deg, rgba(37, 55, 87, 0.1), rgba(37, 55, 87, 0.1)), url(../images/slider/slide-img-1.jpg);
@@ -228,17 +221,19 @@ a {
   .networks {
     right: -240px; } }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 699px) {
   .slider {
     top: calc(640px - 32.5px);
     left: calc(50% - 80px); }
+  .picture {
+    top: 600px; }
   .picture__text-box {
     top: 500px;
     left: 20px; } }
 
 @media screen and (max-width: 455px) {
   .picture {
-    top: 600px; }
+    top: 650px; }
     .picture__text-box {
       top: 500px;
       left: 20px;

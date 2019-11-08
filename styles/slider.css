@@ -93,17 +93,19 @@
   .networks {
     right: -240px; } }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 699px) {
   .slider {
     top: calc(640px - 32.5px);
     left: calc(50% - 80px); }
+  .picture {
+    top: 600px; }
   .picture__text-box {
     top: 500px;
     left: 20px; } }
 
 @media screen and (max-width: 455px) {
   .picture {
-    top: 600px; }
+    top: 650px; }
     .picture__text-box {
       top: 500px;
       left: 20px;
