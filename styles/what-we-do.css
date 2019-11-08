@@ -40,6 +40,9 @@
 @media screen and (max-width: 999px) {
   .what-we-do {
     padding-bottom: 100px; }
+    .what-we-do__heading {
+      width: 300px;
+      left: calc((100% - 300px) / 2); }
     .what-we-do__items {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;

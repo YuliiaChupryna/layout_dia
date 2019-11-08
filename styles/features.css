@@ -55,4 +55,16 @@
             justify-content: center;
     padding: 100px auto; } }
 
+@media screen and (max-width: 699px) {
+  .features {
+    top: 850px;
+    background: #56ccf2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 100px auto; } }
+
 /*# sourceMappingURL=features.css.map */

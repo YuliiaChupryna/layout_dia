@@ -127,6 +127,8 @@
     width: 95%; } }
 
 @media screen and (max-width: 768px) {
+  html {
+    width: 100vw; }
   .connection {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
