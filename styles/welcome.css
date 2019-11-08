@@ -13,6 +13,11 @@
 
 @media screen and (max-width: 999px) {
   .welcome__block {
-    margin: 0 30px; } }
+    margin: auto;
+    width: 70%;
+    text-align: center; }
+  .sub-title--welcome {
+    margin: 0 auto;
+    width: 134px; } }
 
 /*# sourceMappingURL=welcome.css.map */
