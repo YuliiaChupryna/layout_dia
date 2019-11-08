@@ -564,10 +564,10 @@ a {
     width: 200px; }
   .process__card {
     width: 130px;
-    padding: 48px 5px; }
+    padding: 48px 2px; }
   .card-box--right {
     top: 100px;
-    left: 150px; } }
+    left: 135px; } }
 
 .sub-title {
   display: -webkit-box;
